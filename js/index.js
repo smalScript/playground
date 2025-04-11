@@ -8,4 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function toggleLedSwitch() {
     ledButtonToggled = this.checked;
+    writeComFile(ledButtonToggled);
+}
+
+function writeComFile(switcherToggled = false) {
+
+    // Write current state into file
 }

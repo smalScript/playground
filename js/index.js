@@ -15,6 +15,11 @@ function toggleLedSwitch() {
     writeComFile(ledButtonToggled);
 }
 
+function readComFile() {
+
+    // Read states out of data.json
+}
+
 function writeComFile(switcherToggled = false) {
 
     // Write current state into file
